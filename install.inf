@@ -1,0 +1,23 @@
+[info]
+title=Backup File
+desc=Creates backup copy of current file, a) by command in Plugins, b) auto-creation before file saving
+type=py-plugin
+subdir=syn_backup_file
+homepage=https://github.com/kvichans/cuda_backup_file
+
+[ini1]
+section=Events
+id=on_save_pre
+params=on_save_pre
+
+[ini11]
+section=Commands
+id=Backup File\Create a copy or compare with old ones...
+params=copy_bk_or_compare
+;menu=0
+
+[ini99]
+section=Commands
+id=Backup File\Config...
+params=dlg_config
+;menu=0
