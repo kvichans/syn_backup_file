@@ -1,4 +1,4 @@
-Plugin for CudaText.
+Plugin for SynWrite.
 Creates backup copy of current file: a) by command in Plugins, b) by auto-creation on file saving.
 
 Also gives command to call file-compare: current text, and previous backup copy.
