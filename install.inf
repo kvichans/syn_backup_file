@@ -7,7 +7,7 @@ homepage=https://github.com/kvichans/cuda_backup_file
 
 [ini1]
 section=Events
-id=on_save_pre
+id=BackupFile
 params=on_save_pre
 
 [ini11]

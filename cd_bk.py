@@ -369,7 +369,7 @@ class Command:
        #def copy_bk_or_compare
 
     def on_save_pre(self, ed_self):#NOTE: on_save_pre
-        pass;                   LOG and log('',())
+        pass;                  #LOG and log('',())
         if not self.save_on: return
         cf_path = ed.get_filename()
         if not cf_path: return
@@ -377,7 +377,7 @@ class Command:
         vrn_data= load_cfg(ops='vrn_data')
         if  not vrn_data: return
         sv_path = get_bk_path(cf_path, vrn_data['whon'], vrn_data['maon'])
-        pass;                   LOG and log('sv_path={}',(sv_path))
+        pass;                  #LOG and log('sv_path={}',(sv_path))
         sv_dir, \
         sv_fn   = os.path.split(sv_path)
         if not os.path.isdir(sv_dir):
